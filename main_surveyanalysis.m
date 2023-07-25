@@ -1,5 +1,5 @@
 % Combine all text entries into a single string
-survey = readtable('/Users/glieb1/Documents/PHD/Domenic/Survey Cybermobbing_Numbered.xlsx');
+survey = readtable('Path to the survey in .xlsx format');
 
 %Remove question entry
 warning('off','all')
